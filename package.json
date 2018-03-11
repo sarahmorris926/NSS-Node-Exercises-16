@@ -2,9 +2,13 @@
   "name": "NSS-Node-Exercises-16",
   "version": "1.0.0",
   "description": "NSS Node.JS Exercises: 16 - First Steps in Test Driven Development",
-  "main": "index.js",
+  "main": "cli.js",
+  "bin": {
+    "readfile": "./js/cli.js"
+  },
   "scripts": {
-    "test": "mocha -R spec --watch"
+    "test": "mocha -R spec --watch",
+    "start": "node js/cli.js"
   },
   "repository": {
     "type": "git",
