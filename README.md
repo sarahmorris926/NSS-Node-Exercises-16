@@ -29,3 +29,9 @@ Also, add the following to your package.json:
   }
 ```
 This will tell mocha to run the tests every time you update a test file, to use the "list" reporter (look at the docs to pick another style if you'd like), and to look into any nested test folders for additional test files (not necessary at this point, but nice to know you can do that), when you run `npm test` on the command line. If your tests come out all one color, try adding the `--colors` flag as well.
+
+## Running
+* `git clone https://github.com/sarahmorris926/NSS-Node-Exercises-16.git`
+* `npm install`
+* write `node js/cli.js` and then your operator, followed by the two numbers you want to calculate
+* Example: `node js/cli.js add 4 5` will output `9`
